@@ -1,0 +1,95 @@
+.thankscontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 412px;
+  height: 416px;
+  background-color: #1b212a;
+  border-radius: 30px;
+}
+.resultLogo {
+  width: 162px;
+  height: 108px;
+  margin-bottom: 30px;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fc7614;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  width: 193px;
+  height: 32px;
+  background-color: #262e38;
+  border-radius: 30px;
+}
+.thanks {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Overpass", sans-serif;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.feedback {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Overpass", sans-serif;
+  color: #969fad;
+  width: 340px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+  .thankscontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 327px;
+    height: 360px;
+    background-color: #1b212a;
+    border-radius: 30px;
+  }
+  .resultLogo {
+    width: 144px;
+    height: 96px;
+    margin-bottom: 30px;
+  }
+  .result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fc7614;
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    width: 168px;
+    height: 32px;
+    background-color: #262e38;
+    border-radius: 30px;
+  }
+  .thanks {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Overpass", sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .feedback {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Overpass", sans-serif;
+    color: #969fad;
+    width: 279px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
