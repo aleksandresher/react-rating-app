@@ -138,6 +138,7 @@ button:hover {
     letter-spacing: 1px;
     transition-duration: 0.5s;
     border: none;
+    margin-bottom: 20px;
   }
   .mainQuestion {
     font-size: 24px;
@@ -155,7 +156,7 @@ button:hover {
     display: flex;
     width: 281px;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   button:hover {
     background-color: aliceblue;
@@ -163,5 +164,17 @@ button:hover {
   }
   .notRated:hover {
     background-color: #fc7614;
+  }
+
+  .starDiv {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #262e38;
+    border-radius: 50%;
+    border: none;
   }
 }
