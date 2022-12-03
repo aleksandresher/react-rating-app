@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../images/img2.png";
 import styles from "./Thanks.module.css";
 
